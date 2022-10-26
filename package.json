@@ -1,0 +1,46 @@
+{
+    "name"       : "vscode-galizur-theme",
+    "displayName": "Galizur Theme",
+    "description": "A spellbound, vibrant dark editor color scheme with matching UI theme for 𝗩𝗦𝗖𝗢𝗗𝗘",
+    "version"    : "1.0.0",
+    "publisher"  : "razielanarki",
+    "author": {
+        "name": "Raziel Anarki"
+    },
+    "license"    : "SEE LICENSE IN LICENSE.md",
+    "icon"       : "images/icon.png",
+    "galleryBanner": {
+        "color": "#333444",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/razielanarki/vscode-galizur-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/razielanarki/vscode-galizur-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/razielanarki/vscode-galizur-theme/issues",
+        "email": "razielanarki@semmi.se"
+    },
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "galizur",
+        "theme",
+        "dark",
+        "colors"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label"  : "Galizur",
+                "uiTheme": "vs-dark",
+                "path"   : "./themes/galizur-color-theme.json"
+            }
+        ]
+    }
+}
