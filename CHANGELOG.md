@@ -6,11 +6,18 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 
 ## [Unreleased]
 
+## [1.3.7] - 2023-09-24
+
++ Semantic token colorization support
++ Support `.ignore` syntax
++ UI polish near statusbar
+
 ## [1.0.0] - 2022-10-28
 
 - Initial release
 
 [Unreleased]: https://github.com/razielanarki/vscode-galizur-theme/
+[1.3.7]: https://github.com/razielanarki/vscode-galizur-theme/tag/1.3.7
 [1.0.0]: https://github.com/razielanarki/vscode-galizur-theme/tag/1.0.0
 
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
