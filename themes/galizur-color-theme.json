@@ -80,7 +80,6 @@
 
     "editorBracketHighlight.unexpectedBracket.foreground": "#aa3355",
 
-//  "welcomePage.tileShadow": "#11223344",
     "scrollbar.shadow"      : "#11223344",
     "widget.shadow"         : "#11223344",
 
@@ -146,10 +145,10 @@
     "badge.foreground": "#aaccee",
 
     "minimap.background"        : "#232629",
-    "minimap.findMatchHighlight": "#225544",
+    "minimap.findMatchHighlight": "#22554477",
     "minimap.errorHighlight"    : "#aa3355",
     "minimap.warningHighlight"  : "#aa5533",
-    "minimap.selectionHighlight": "#225577",
+    "minimap.selectionHighlight": "#22557799",
 
     "minimapSlider.background"      : "#11133355",
     "minimapSlider.hoverBackground" : "#33355566",
@@ -195,7 +194,7 @@
     "editor.selectionForeground": "#aaccee",
     "editor.selectionBackground": "#225599",
 
-    "editor.inactiveSelectionBackground": "#223355",
+    "editor.inactiveSelectionBackground": "#22335577",
 
     "editor.foldBackground": "#00112233",
 
@@ -234,6 +233,7 @@
     "editor.findRangeHighlightBackground": "#223344cc",
     "editor.selectionHighlightBackground": "#33366699",
     "editor.rangeHighlightBackground"    : "#22334466",
+    "editor.wordHighlightBackground"     : "#ccaa3311",
 
     "searchEditor.findMatchBorder"    : "#ccaa33",
     "searchEditor.findMatchBackground": "#224433",
@@ -280,8 +280,6 @@
     "editorWidget.background"  : "#313337",
     "editorWidget.foreground"  : "#aabbcc",
 
-    "scm.providerBorder": "#212327",
-
     "editorSuggestWidget.background": "#2a2c37",
     "editorSuggestWidget.border"    : "#222333",
 
@@ -292,9 +290,9 @@
     "extensionBadge.remoteForeground": "#ccceee",
     "extensionBadge.remoteBackground": "#116677",
 
-    "extensionIcon.starForeground"      : "#ccaa33",
-    "extensionIcon.preReleaseForeground": "#33aa77",
-    "extensionIcon.verifiedForeground"  : "#3377cc",
+    "extensionIcon.starForeground"      : "#ccaa3399",
+    "extensionIcon.preReleaseForeground": "#33aa7799",
+    "extensionIcon.verifiedForeground"  : "#3377cc99",
 
     "extensionButton.prominentForeground"     : "#ccceee",
     "extensionButton.prominentBackground"     : "#007733",
@@ -397,7 +395,7 @@
     "terminal.foreground": "#aaabbb",
 
     "terminalCursor.foreground"   : "#ccaa77",
-//  "terminalCursor.background"   : "#115577",
+    // "terminalCursor.background"   : "#115577",
     "terminal.selectionBackground": "#225599",
 
     "terminal.border"          : "#2a2c2e",
@@ -760,6 +758,16 @@
       }
     },
     {
+      "scope"  : [
+        "keyword.blade",
+        "keyword.control.blade",
+        "meta.directive.blade"
+      ],
+      "settings" : {
+        "foreground": "#cc2255"
+      }
+    },
+    {
       "scope" : [
         "keyword.control.directive",
         "punctuation.definition.directive",
@@ -1006,14 +1014,6 @@
 
     {
       "scope" : [
-        "punctuation.definition"
-      ],
-      "settings" : {
-        "foreground" : "#778899"
-      }
-    },
-    {
-      "scope" : [
         "punctuation.definition.variable"
       ],
       "settings" : {
@@ -1076,7 +1076,7 @@
     {
       "scope" : [
         "meta.separator",
-        "punctuation.definition",
+        "punctuation.definition source",
         "punctuation.definition.list"
       ],
       "settings" : {
@@ -1085,7 +1085,9 @@
     },
     {
       "scope" : [
-        "meta.brace"
+        "meta.brace",
+        "support.function.construct",
+        "support.function.construct source",
       ],
       "settings" : {
         "foreground" : "#557788"

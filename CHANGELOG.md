@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 
 ## [Unreleased]
 
+## [1.3.9] - 2024-04-28
+
++ `.blade.php` directive support
++ Minor fixes
+
 ## [1.3.7] - 2023-09-24
 
 + Semantic token colorization support
@@ -17,6 +22,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Semantic
 - Initial release
 
 [Unreleased]: https://github.com/razielanarki/vscode-galizur-theme/
+[1.3.7]: https://github.com/razielanarki/vscode-galizur-theme/tag/1.3.9
 [1.3.7]: https://github.com/razielanarki/vscode-galizur-theme/tag/1.3.7
 [1.0.0]: https://github.com/razielanarki/vscode-galizur-theme/tag/1.0.0
 
